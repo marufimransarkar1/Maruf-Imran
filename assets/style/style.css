@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: white;
+    box-shadow: 1px 1px 5px;
+}
+.logo a{
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo a span{
+    color: red;
+}
+nav > ul{
+    position: relative;
+    display: flex;
+}
+nav >ul >li{
+    list-style: none;
+    padding-right: 20px;
+}
+nav >ul >li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+nav >ul >li >a:hover{
+    color: #00C9FF;
+}
+
+section{
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+}
+.home{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #00C9FF;
+}
+.home img{
+    width: 300px;
+    display: inline-block;
+}
+.home h4{
+    font-size: 26px;
+    padding: 20px 0 0 0;
+}
+.home h1{
+    font-size: 35px;
+    padding: 0 0 0 10px;
+}
+.home p{
+    font-size: 20px;
+    padding: 10px 100px;
+
+}
+.home .readmorebtn{
+    border: none;
+    margin-top: 10px;
+    border-radius: 0 10px  10px;
+}
+.home .readmorebtn a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 0 10px 0 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.home .readmorebtn a:hover{
+    color: blue;
+    background-color: #00C9FF;
+
+}
+.about{
+    background-color: white;
+    overflow: hidden;
+}
+.about > h1{
+    background-color: white;
+    border: 2px solid #00C9FF;
+    color: #00C9FF;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about .flexdiv{
+    position: relative;
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+}
+.about .left img{
+    width: 400px;
+    transform: scaleX(-1);
+}
+.about .right {
+    padding-left: 100px;
+    text-align: center;
+}
+.about .right h1{
+    font-size: 34px;
+}
+.about .right p{
+    font-size: 25px;
+}
+.about .dncv{
+    border: none;
+    margin-top: 10px;
+    border-radius: 0 10px  10px;
+}
+.about .dncv a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 0 10px 0 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.about .dncv a:hover{
+    color: blue;
+    background-color: #fff;
+}
+.portfolio {
+    background-color: black;
+    padding: 10px;
+}
+.portfolio > h1{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.portfolio .lesson{
+    height: 100%;
+    position: relative;
+    top: 45%;
+    text-align: center;
+}
+.portfolio .lesson p{
+    color: white;
+    font-size: 25px;
+}
+.contact{
+    padding: 10px;
+}
+.contact > h1{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cntitm{
+    display: flex;
+}
+.cntitm .contleft{
+    padding: 20px;
+    width: 50%;
+}
+.cntitm .contleft h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.cntitm .contleft p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cntitm .contright{
+    display: block;
+    padding: 20px;
+}
+.cntitm .contright h1{
+    font-size: 34px;
+    text-align: center;
+}
+.cntitm .contright form label{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+.cntitm .contright form label input, .cntitm .contright form input ,.cntitm .contright form label textarea{
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+}
+.cntitm .contright form input.sendmbtn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 0 10px 0 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.cntitm .contright form input.sendmbtn:hover {
+    color: blue;
+    background-color: #fff;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: bisque;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
